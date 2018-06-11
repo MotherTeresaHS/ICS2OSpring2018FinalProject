@@ -178,7 +178,7 @@ end
 local function onlevel15Release()
 	
 	-- go to level0.lua scene
-	composer.gotoScene( ".levels.level15", "fade", 500 )
+	composer.gotoScene( ".levels.level15", { params = {} } )
 	
 	return true	-- indicates successful touch
 end
