@@ -1,4 +1,3 @@
-
 -- Include modules/libraries
 local composer = require( "composer" )
 local fx = require( "com.ponywolf.ponyfx" )
@@ -89,7 +88,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level4.json"
+	local filename = "./assets/maps/level4Sub.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -102,7 +101,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" , "level4NewCoin" , "enterLevel4Sub" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes" , "level4NewCoin" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )

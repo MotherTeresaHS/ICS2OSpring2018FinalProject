@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#1a1e1f" nextobjectid="2677">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="160" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#1a1e1f" nextobjectid="2678">
  <tileset firstgid="1" name="block" tilewidth="2000" tileheight="1143" tilecount="74" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -233,7 +233,7 @@
   <object id="2143" gid="1" x="17152" y="2568" width="4152" height="2575"/>
   <object id="2651" gid="1" x="21248" y="2688" width="3712" height="2695"/>
  </objectgroup>
- <objectgroup name="middleground" locked="1" opacity="0.97">
+ <objectgroup name="middleground" opacity="0.97">
   <object id="353" gid="8" x="256" y="2432" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2725,7 +2725,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1599" gid="8" x="768" y="2304" height="2336">
+  <object id="1599" gid="8" x="768" y="2304" width="128" height="2336">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4902,7 +4902,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2654" gid="8" x="18432" y="2304" height="2312">
+  <object id="2654" gid="8" x="18432" y="2304" width="128" height="2312">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -4957,7 +4957,7 @@
   <object id="2183" type="spikes" gid="70" x="16256" y="2304" width="357" height="361"/>
   <object id="2184" type="spikes" gid="70" x="16862" y="2188" width="357" height="361"/>
   <object id="2644" gid="73" x="768" y="2304" width="280" height="464"/>
-  <object id="2647" name="exist" type="exit" gid="72" x="18176" y="2304" width="280" height="464"/>
+  <object id="2647" name="sublevel" type="enterLevel4Sub" gid="72" x="18176" y="2304" width="280" height="464"/>
   <object id="1613" type="blob" gid="56" x="3264" y="2296" width="120" height="159"/>
   <object id="1611" type="enemy" gid="42" x="3696" y="2288" width="121" height="201"/>
   <object id="1612" type="blob" gid="37" x="4712" y="2288" width="120" height="201"/>
@@ -4969,5 +4969,6 @@
   <object id="2674" name="diamond" type="level4NewCoin" gid="74" x="16132" y="1852" width="113" height="109"/>
   <object id="2675" name="diamond" type="level4NewCoin" gid="74" x="16648" y="1732" width="113" height="109"/>
   <object id="2676" name="diamond" type="level4NewCoin" gid="74" x="17276" y="1608" width="113" height="109"/>
+  <object id="2677" name="sublevel" type="enterLevel4Sub" gid="72" x="2688" y="1792" width="280" height="464"/>
  </objectgroup>
 </map>

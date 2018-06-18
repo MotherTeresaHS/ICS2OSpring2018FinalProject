@@ -48,7 +48,7 @@ function scene:create( event )
 	-- Find the help button
 	--local help = ui:findObject( "help" )
 	--function help:tap()
-	--	ui:findLayer( "help" ).isVisible = not ui:findLayer( "help" ).isVisible
+	--ui:findLayer( "help" ).isVisible = not ui:findLayer( "help" ).isVisible
 	--end
 	--help:addEventListener( "tap" )
 
